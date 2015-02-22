@@ -1,0 +1,93 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+.jumbotron{
+  text-align: center;
+  background-image: url('../images/wallie.jpg');
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 200px;
+}
+
+#get_involved{
+	background-color: #f5f5f5;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.btn-lg{
+   font-size: 36px;
+}
+
+.jumbotron h1, ul.nav{
+	font-family: 'Arvo', courier ,serif;
+}
+
+ul.nav{
+	font-size: 13px;
+}
+
+.jumbotron h1{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+
+.jumbotron p{
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 60px;
+	padding-bottom: 30px;
+}
+
+.homepage{
+	text-align: center;
+}
+
+.homepage h2, h3{
+	color:	#e74c3c;
+	font-family: 'Arvo', courier ,serif;
+	text-transform: uppercase;
+}
+
+.homepage h3{
+	font-size: 26px;
+}
+
+.homepage p{
+	font-weight: 300;
+	font-size: 21px;
+}
+
+.homepage a{
+	color: #e74c3c;
+}
+
+.homepage a:hover{
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: .8;
+}
+
+.homepage hr{
+	border-color: #e74c3c;
+	width: 160px;
+	margin-top: 15px;
+}
+
+footer{
+/*	background-color: #e74c3c; */
+	background-color: #101010;
+	padding-top: 48px;
+	padding-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+
+	.btn-lg {
+		font-size: 28px;
+}
+	
+}
