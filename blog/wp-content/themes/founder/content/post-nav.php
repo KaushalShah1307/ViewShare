@@ -11,7 +11,7 @@ if ( $previous_post ) {
 	$previous_link  = get_permalink( $previous_post );
 } else {
 	$previous_text  = __( 'No Older Posts', 'founder' );
-	$previous_title = __( 'Return to Blog', 'founder' );
+	$previous_title = __( 'Return to Archives', 'founder' );
 	if ( get_option( 'show_on_front' ) == 'page' ) {
 		$previous_link = get_permalink( get_option( 'page_for_posts' ) );
 	} else {
