@@ -252,6 +252,7 @@ body {
 }
 .comments {
   padding: 1.5em;
+  text-align: center;
 }
 
 .comments-number {
