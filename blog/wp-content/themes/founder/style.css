@@ -77,6 +77,9 @@ body {
 
 p {
   margin: 1.5em 0;
+  font-family: Lora,'Times New Roman',serif;
+  font-size: 20px;
+  color: #404040;
 }
 
 a {
