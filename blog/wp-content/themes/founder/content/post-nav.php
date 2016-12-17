@@ -25,7 +25,7 @@ if ( $next_post ) {
 	$next_link  = get_permalink( $next_post );
 } else {
 	$next_text  = __( 'No Newer Posts', 'founder' );
-	$next_title = __( 'Return to Blog', 'founder' );
+	$next_title = __( 'Return to Archives', 'founder' );
 	if ( get_option( 'show_on_front' ) == 'page' ) {
 		$next_link = get_permalink( get_option( 'page_for_posts' ) );
 	} else {
